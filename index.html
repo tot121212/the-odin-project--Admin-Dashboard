@@ -11,7 +11,7 @@
 <body>
     <div class="left-sidebar">
         <div class="content">
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="dashboard-icon" src="media/view-dashboard-outline.svg" alt="Dashboard Icon">
                 </div>
@@ -20,37 +20,37 @@
             
             <div class="divider"></div>
 
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="home-icon" src="media/home-assistant.svg" alt="Home Icon">
                 </div>
                 <div>Home</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="profile-icon" src="media/image.svg" alt="Profile Icon">
                 </div>
                 <div>Profile</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="messages-icon" src="media/message-alert-outline.svg" alt="Messages Icon">
                 </div>
                 <div>Messages</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="history-icon" src="media/history.svg" alt="History Icon">
                 </div>
                 <div>History</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="tasks-icon" src="media/file-outline.svg" alt="Tasks Icon">
                 </div>
                 <div>Tasks</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="communities-icon" src="media/account-group-outline.svg" alt="Communities Icon">
                 </div>
@@ -59,19 +59,19 @@
 
             <div class="divider"></div>
 
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="settings-icon" src="media/cog.svg" alt="Settings Icon">
                 </div>
                 <div>Settings</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="support-icon" src="media/help-box-outline.svg" alt="Support Icon">
                 </div>
                 <div>Support</div>
             </a>
-            <a href="#">
+            <a href="" class="icon-link">
                 <div class="img-container">
                     <img class="privacy-icon" src="media/shield-lock-outline.svg" alt="Privacy Icon">
                 </div>
@@ -79,125 +79,139 @@
             </a>        
         </div>
     </div>
-    <header>
-        <div id="toppart">
-            <button class="transparent-button">
-                <img src="media/search-web.svg" alt="Magnifiying Class Icon" id="magnifiying-glass-icon">
-            </button>
-            
-            <input type="text">
-            <img src="" alt="Notification Bell Icon" id="notification-bell-icon">
-            <img src="" alt="Profile Picture" id="profile-picture">
-            <div id="user-name"></div>
+    <header class="header-bar">
+        <div class="top-part">
+            <form action="POST" id="search-form">
+                <button form="search-form" class="transparent-button" id="search-form-submit">
+                    <img src="media/search-web.svg" alt="Magnifiying Class Icon" id="magnifiying-glass-icon">
+                </button>
+                <input class="search-bar" type="text">
+            </form>
+            <a href="" class="icon-link">
+                <img class="xsmall" src="media/bell-alert-outline.svg" alt="Notification Bell Icon" id="notification-bell-icon">
+            </a>
+            <a href="" class="icon-link">
+                <img src="media/image.svg" alt="Profile Picture" class="current-user profile-picture medium">
+            </a>
+            <div class="current-user user-name">User Name</div>
         </div>
-        <div id="bottompart">
-            <img src="" alt="" id="profile-picture">
+        <div class="bottom-part">
+            <a href="">
+                <img src="media/image.svg" alt="" class="current-user profile-picture large">
+            </a>
             <div class="container">
                 <div>Hi there,</div>
-                <div class="user-data-container"></div>
-                    <div id="user-name">User Name</div>
-                    <div id="user-tag">(@username)</div>
+                <div class="user-data-container">
+                    <div class="current-user user-name">User Name</div>
+                    <div class="current-user user-tag">(@username)</div>
                 </div>
+            </div>
+            <div class="action-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
             </div>
         </div>
     </header>
     <main>
-        <div class="projects">
-            <header>Your Projects</header>
-            <ul class="horiz-grid">
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-                <li>
-                    <header>Project Name</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
-                    <div class="buttons">
-                        <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="announcements">
-            <header>Announcements</header>
-            <ul>
-                <li>
-                    <header>Announcement</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
-                </li>
-                <li>
-                    <header>Announcement</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
-                </li>
-                <li>
-                    <header>Announcement</header>
-                    <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
-                </li>
-            </ul>
-        </div>
-        <div class="trending">
-            <header>Trending</header>
-            <ul>
-                <li>
-                    <div class="profile-picture" id="@username1"></div>
-                    <div class="container">
-                        <header id="user-id">User ID</header>
-                        <main id="user-description">User Description</main>
-                    </div>
-                </li>
-                <li>
-                    <div class="profile-picture" id="@username1"></div>
-                    <div class="container">
-                        <header id="user-id">User ID</header>
-                        <main id="user-description">User Description</main>
-                    </div>
-                </li>
-                <li>
-                    <div class="profile-picture" id="@username1"></div>
-                    <div class="container">
-                        <header id="user-id">User ID</header>
-                        <main id="user-description">User Description</main>
-                    </div>
-                </li>
-                <li>
-                    <div class="profile-picture" id="@username1"></div>
-                    <div class="container">
-                        <header id="user-id">User ID</header>
-                        <main id="user-description">User Description</main>
-                    </div>
-                </li>
-            </ul>
+        <div class="grid">
+            <div class="projects">
+                <header>Your Projects</header>
+                <ul class="horiz-grid">
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                    <li>
+                        <header>Project Name</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis consequuntur blanditiis incidunt, aut doloribus culpa nesciunt dignissimos perspiciatis aperiam adipisci esse iusto explicabo dolor commodi? In delectus quod aliquid.</main>
+                        <div class="buttons">
+                            <button class="star-icon"><img src="media/cog-outline.svg" alt="Settings"></button><button class="eye-icon"><img src="media/file-outline.svg" alt="Files"></button><button class="fork-icon"><img src="media/eye-settings-outline.svg" alt="Seen By Who"></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="announcements">
+                <header>Announcements</header>
+                <ul>
+                    <li>
+                        <header>Announcement</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
+                    </li>
+                    <li>
+                        <header>Announcement</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
+                    </li>
+                    <li>
+                        <header>Announcement</header>
+                        <main>Lorem ipsum dolor sit amet consectetur adipisicing elit.</main>
+                    </li>
+                </ul>
+            </div>
+            <div class="trending">
+                <header>Trending</header>
+                <ul>
+                    <li>
+                        <img src="media/help-box-outline.svg" class="profile-picture small" id="@username1">
+                        <div class="container">
+                            <header class="user-id" id="user-id">@User ID</header>
+                            <main id="user-description">User Description</main>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="media/help-box-outline.svg" class="profile-picture small" id="@username1">
+                        <div class="container">
+                            <header class="user-id" id="user-id">@User ID</header>
+                            <main id="user-description">User Description</main>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="media/help-box-outline.svg" class="profile-picture small" id="@username1">
+                        <div class="container">
+                            <header class="user-id" id="user-id">@User ID</header>
+                            <main id="user-description">User Description</main>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="media/help-box-outline.svg" class="profile-picture small" id="@username1">
+                        <div class="container">
+                            <header class="user-id" id="user-id">@User ID</header>
+                            <main id="user-description">User Description</main>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
