@@ -34,27 +34,27 @@ body > *{
 }
 
 .xsmall{
-    min-width: 16px;
+    min-width: 18px;
+    max-width: 18px;
+    max-height: 18px;
+}
+
+img, .small{
+    min-width: 24px;
     max-width: 24px;
     max-height: 24px;
 }
 
-img, .small{
-    min-width: 18px;
-    max-width: 36px;
-    max-height: 36px;
-}
-
 .medium{
     min-width: 32px;
-    max-width: 48px;
-    max-height: 48px;
+    max-width: 32px;
+    max-height: 32px;
 }
 
 .large{
-    min-width: 38px;
-    max-width: 64px;
-    max-height: 64px;
+    min-width: 48px;
+    max-width: 48px;
+    max-height: 48px;
 }
 
 .profile-picture{
@@ -328,7 +328,7 @@ body > main > .grid{
     display: flex;
     flex-direction: row;
     flex: 1 0 32px;
-    gap: 4px;
+    gap: 8px;
     align-items: center;
 }
 
